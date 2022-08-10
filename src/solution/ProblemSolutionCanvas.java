@@ -38,7 +38,7 @@ public class ProblemSolutionCanvas {
 					NumIntersectingStreets++;
 		
 		System.out.print("there are " + NumIntersectingStreets + " intersecting streets");
-		
+		input.close();
 	}
 	
 	public static int[][] InitCanvas(int[][] NewCanvas, int CanvasHeight, int CanvasLength) {
